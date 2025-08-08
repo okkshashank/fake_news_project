@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+.env
+venv/
+env/
+.Python
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb
+
+# Models & datasets (do not commit)
+models/
+data/
+*.bin
+*.pt
+*.safetensors
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Streamlit cache/logs
+.streamlit/
+*.log
